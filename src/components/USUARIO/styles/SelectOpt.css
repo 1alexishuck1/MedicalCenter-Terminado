@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.container-main-selectST{
+    margin-bottom: 50px !important;
+    margin-top: 80px  !important;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    background-color: var(--principal-bg-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.container-main-selectST .container-buttonST .btn-back button{
+    background: transparent;
+    margin-top: 7px;
+    outline: none;
+    margin-left: 20px;
+    color: var(--letra-links-color);
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+}
+
+.container-main-selectST .container-selectST{
+    width: 680px;
+}
+
+.container-main-selectST .container-selectST select{
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 7.5px;
+    height: 25px;
+}

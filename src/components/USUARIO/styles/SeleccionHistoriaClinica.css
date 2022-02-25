@@ -1,0 +1,31 @@
+select{
+    width: 130px;
+    height: 25px;
+    margin-left: 12.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form{
+    width: 300px;
+}
+
+.form input{
+    margin-left: 12.5px;
+    width: 241px;
+    border-radius: 5px 0 0 5px;
+}
+
+.form button{
+    width: 30px;
+    background-color: #fff;
+    border: 0;
+    border-left: 1px solid #000;
+    height: 25px;
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="date"]{
+    margin-left: 12.5px;
+    width: 130px;
+}

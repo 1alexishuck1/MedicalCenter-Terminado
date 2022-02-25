@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.fondo{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--fondo-bg-color);
+}
+
+.logo img{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.container-recuperar{
+    z-index: 100;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    height: 155px;
+    background-color: rgba(0, 0, 0, 0.566);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-recuperar h2{
+    text-align: center;
+    margin-top:10px;
+    z-index: 99;
+    margin-bottom:17.5px;
+    color: var(--letra-links-color);
+}
+
+.recuperar-inputs{
+    z-index: 98;
+    width: 90% !important;
+    margin-left: -5px !important;
+}
+
+.recuperar-inputs input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 7.5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.recuperar-inputs input::placeholder{
+    color: #000;
+}
+
+.recuperar-inputs select{
+    width: 101.5%;
+    height: 30px;
+    margin-top: 7.5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.recuperar-inputs input:focus{
+    outline: none;
+}
+
+.btn-siguiente{
+    margin-left: 120px !important;
+    width: 120px !important;
+}
+
+
+.recuperar-inputs .btn-siguiente button{
+    margin-left: 0 !important;
+    margin-top: 15px;
+    width: 120px;
+    height: 25px;
+    background-color: var(--principal-bg-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--letra-links-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.button-volver button{
+    background: transparent;
+    color: var(--letra-links-color);
+    border: 0;
+    margin-left: 100px;
+    margin-top: 20px !important;
+    font-size: 17px;
+    cursor: pointer;
+}

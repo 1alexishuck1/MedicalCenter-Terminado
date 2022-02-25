@@ -1,0 +1,15 @@
+:root{
+    --principal-bg-color: #00796B;
+    --secundario-bg-color: #a;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+
+body{
+    background-color: var(--fondo-bg-color);
+}
+
+.container-button button{
+    margin-top: 7px !important; 
+}

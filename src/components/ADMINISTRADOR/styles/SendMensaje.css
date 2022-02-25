@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #00796B;
+    --secundario-bg-color: #054B43;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+.regresar-container-admin{
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    height: 60px;
+}
+
+.regresar-btn-admin{
+    background-color:var(--principal-bg-color);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.regresar-btn-admin h2{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.regresar-btn-admin img{
+    margin-bottom: 10px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+
+.message-super-container-admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 595px;
+    margin-top: -30px;
+}
+
+.message-form-container-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.566);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.message-form-container-admin h1 {
+    margin: 30px auto;
+    color: #ffff;
+}
+
+.message-form-container-admin form {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.message-input-container-admin  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message-input-container-admin input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.message-input-container-admin  input[type="text"] {
+    font-size: 20px;
+}
+
+.message-input-container-admin  button {
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: var(--principal-bg-color);
+    color: #ffff;
+    margin: 10px auto;
+
+}
+
+#mensaje {
+    height: 400px;
+}
+
+
+.message-input-container-admin textarea {
+    width: 100%;
+    height: 240px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding: 10px 10px 0 10px;
+    resize: none;
+    font-size: 20px;
+}

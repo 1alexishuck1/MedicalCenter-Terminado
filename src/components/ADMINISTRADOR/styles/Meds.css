@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap%27');
+
+:root{
+    --principal-bg-color: #00796B;
+    --secundario-bg-color: #054B43;;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.regresar-button-admin{
+    display: flex;
+    width: 10%;
+    padding-right: 70%;
+    margin-top: 20px;
+    padding-left: 1%;
+    margin-left: 9%;
+    background-color:var(--principal-bg-color);
+    border-radius: 5px;
+    height: 60px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.regresar-button-admin h2{
+    margin-left: 5px;
+}
+
+.regresar-button-admin img{
+    width: 30px;
+    margin-left: 5px;
+}
+
+.btn-container-admin input{
+    width: 250px !important;
+    margin-top: 17px;
+}
+
+.regresar-btn-os-admin button{
+    width: 100px;
+    background: transparent;
+    margin-top: 17px;
+    outline: none;
+    margin-left: 20px;
+    color: var(--letra-links-color);
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.agregar-btn-med-admin button:hover,
+.regresar-btn-os-admin button:hover{
+    box-shadow: 0 0 0 0;
+}
+
+@media (max-width:800px) {
+    .btn-container-admin input{
+        display: none;
+    }
+}
+
+.agregar-btn-med-admin button{
+    width: 165px;
+    background: transparent;
+    margin-top: 0px !important;
+    outline: none;
+    margin-left: 20px;
+    color: var(--letra-links-color);
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+}
+
+
+.fondo-medicos-admin{
+    position: absolute;
+    top: 101px;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-color: rgb(0, 0, 0, .6);
+}
+.btn-container-admin{
+    width: 90%;
+    background-color:var(--principal-bg-color);
+    display: flex;
+    margin: 30px auto 10px;
+    border-radius: 5px;
+    height: 60px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.med-input-admin {
+    
+    display: flex;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+
+.agregar-btn-med-admin {
+    width: 280px;
+    display: flex;
+    margin-right: -60px;
+    align-items: center;
+    cursor: pointer;
+    color: #ffff;
+}
+
+.agregar-btn-med-admin img {
+    width: 30px;
+    margin-left: 5px;;
+}
+
+.check-container-admin {
+    z-index: 3;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    border-radius: 5px;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.check-container-admin h2{
+    color: #ffff;
+}
+
+.check-container-admin form {
+    width: 100%;
+    height: 150px;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.check-container-admin input {
+    display: flex;
+    margin: 0 auto;
+    outline: none;
+    width: 30%;
+    height: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.verificar-btn-admin {
+    width: 12   0px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: var(--principal-bg-color);
+    color: #ffff;   
+}
+
+.verificar-btn-admin span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.super-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.med-form-container {
+    width: 70%;
+    height: 470px;
+    background-color:var(--fondo-secundario-bg-color);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.med-form-container h2 {
+    margin: 20px auto;
+    color: #ffff;
+}
+
+.med-form {
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fst-inputs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.fst-inputs input {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+    display: flex;
+    margin: 5px auto;
+}
+
+.fst-inputs input[type="date"] {
+    width: 90%;
+
+}
+
+.snd-inputs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.snd-inputs input {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+    margin: 5px auto;
+    display: flex;
+}
+
+
+.trd-inputs {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.trd-inputs input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+.select-container-trd{
+    margin-top: -10px;
+    margin-left: 15px;
+    width: 50%;
+}
+
+.trd-inputs .select-container-trd select{
+    height: 30px !important;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    
+}
+
+
+.fth-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fth-inputs input {
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.button-class-form{
+    display: flex;
+    margin: auto;
+}
+.button-class-form button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    background-color: var(--principal-bg-color);
+    color: #ffff;
+    
+}
+
+button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.96;
+    cursor: pointer;
+}
+
+.error-container {
+    width: 300px;
+    height: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-container h2{
+    color: #ffff;
+}
+
+@media(max-width: 800px){
+.med-input {
+    width: 20%;
+}
+
+}

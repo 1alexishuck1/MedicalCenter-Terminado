@@ -1,0 +1,10 @@
+.container-filtro-profesional{
+    z-index: 90;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    border-radius: 5px 0 5px 5px;
+    box-shadow: 5px 10px 20px rgb(0 0 0 / 50%);
+    background-color: rgba(0, 0, 0, 0.8);
+}

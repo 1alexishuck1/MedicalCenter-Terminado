@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+
+.container-btn-medico{
+    width: 700px;
+    margin: auto;
+}
+
+.container-btn-medico .btn-item-medico{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 60px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.566);
+    height: 90px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius:5px;
+    padding-right: 15px;
+}
+
+.container-btn-medico .btn-item-medico button{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    color: var(--letra-links-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: var(--principal-bg-color);
+}
+
+@media (max-width: 750px) {
+    .container-btn-medico{
+        width: 100%;
+    }
+
+    .container-btn-medico .btn-item-medico button{
+        width: 200px;
+        margin-left: 30%;
+    }
+
+    .btn-item-medico{
+        justify-content: center !important;
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 200px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.566);
+        height: 120px !important;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        border-radius:5px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .container-btn-medico .btn-item-medico button{
+        width: 200px;
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --principal-bg-color: #054B43 !important;
+    --secundario-bg-color: #00796B !important;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+
+.inputs-container{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius : 5px;
+    display: flex;
+    justify-content : center;
+}
+
+.container-input{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+}
+
+.inputs-container input, select{
+    margin-top: 20px;
+    width: 250px !important;
+    height: 25px !important;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container-bnt{
+    width: 39%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bnt input{
+    width: 200px !important;
+    margin-left: -5px;    
+}
+
+.container-bnt button{
+    width: 250px;
+    height: 25px;
+    background-color: var(--principal-bg-color);
+    margin-top: 20px;
+    border: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    color: var(--letra-links-color);
+    border-radius: 5px;
+}
+
+.container-input input[type="date"]{
+    margin-top:  20px;
+    width: 247px !important;
+}
+
+@media (max-width: 778px) {
+    .inputs-container{
+        height: 400px
+    }
+    .container-input{
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: (6, 50px);
+    }
+    .container-bnt button{
+        margin-left: -40%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1175px) and (min-width: 779px) {
+    .container-bnt button{
+        width: 200px;
+    }
+    .inputs-container{
+        height: 260px;
+    }
+    .container-input{
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: (3, 50px);
+    }
+}

@@ -1,0 +1,42 @@
+.busqueda-agregar{
+    display: flex;
+}
+
+.button-agregar{
+    margin: 0 auto;
+}
+
+.button-agregar button{
+    color: #fff;
+    background: transparent;
+    border: 0;
+    margin-left: 270px;
+    margin-right: 80px;
+    margin-top: 12px;
+}
+
+@media (max-width: 1150px) {
+    .button-agregar button{
+        margin-left: 170px;
+        margin-right: 80px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .button-agregar button{
+        margin-left: 70px;
+        margin-right: 80px;
+        margin-top: 12px;
+    }
+    .busqueda-agregar .nav-busqueda input{
+        width: 200px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-busqueda{
+        display: none;
+    }
+}
+

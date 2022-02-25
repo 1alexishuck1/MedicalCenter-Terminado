@@ -1,0 +1,25 @@
+.container-grilla{
+    height: 310px;
+    width: 800px;
+    overflow: scroll;
+    overflow-y:visible;
+    overflow-x:hidden;
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+    .container-grilla{
+        margin-top: 40px;
+        height: 350px;
+        width: 90%;
+        overflow: scroll;
+        overflow-y:visible;
+        overflow-x:hidden;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1200px) {
+    .container-grilla{
+        margin-top: 40px;
+        width: 90%;
+    }
+}

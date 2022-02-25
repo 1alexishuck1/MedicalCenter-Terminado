@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.container-img-logo img{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.form-agregarHC{
+    z-index: 100;
+    width: 350px;
+    margin: auto;
+    margin-top: 0px;
+    height: 340px;
+    background-color: rgba(0, 0, 0, 0.566);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-agregarHC h2{
+    text-align: center;
+    margin-top:10px;
+    z-index: 99;
+    margin-bottom:17.5px;
+    color: var(--letra-links-color);
+}
+
+.form-agregarHC .inputs-agregarHC input{
+    width: 90%;
+    margin-left: 12.5px;
+}
+
+.form-agregarHC .inputs-agregarHC textarea{
+    width: 87%;
+    margin-top: 7.5px;
+    margin-left: 12.5px;
+    height: 100px;
+}
+
+.form-agregarHC .inputs-agregarHC textarea::placeholder{
+    font-size: 14px;
+    color: #000
+}
+
+
+.form-agregarHC button{
+    width: 200px;
+    margin: 15px 75px;
+    background-color: var(--principal-bg-color);
+    color: var(--letra-links-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

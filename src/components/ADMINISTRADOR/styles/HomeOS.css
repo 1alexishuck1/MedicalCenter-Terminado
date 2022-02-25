@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap%27');
+
+:root{
+    --principal-bg-color: #00796B;
+    --secundario-bg-color: #a;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.btn-container-admin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regresar-btn-os-admin {
+    margin-left: 10px;
+    width: 80px;
+}
+
+.regresar-btn-os-admin img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.agregar-btn-admin {
+    margin-right:-20px;
+    width: 280px;
+}
+
+.agregar-btn-admin img {
+    width: 35px;
+    margin-left: 5px;
+}
+
+.main-container-admin {
+    width: 90%;
+    height: 300px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.list-container-admin {
+    overflow-y:visible;overflow-x:hidden;
+    overflow-y:visible;
+    overflow-x:hidden;
+    margin-top: -120px ;
+    width: 100%;
+    height: 440px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--fondo-secundario-bg-color);
+
+    
+}
+
+.list-container-admin list, section {
+    width: 100%;
+}
+
+.super-os-container-admin{
+    display: flex;
+    align-items: center;
+}
+
+.OS-container-admin {
+    width: 95%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    margin:20px auto;
+}
+
+.OS-container-admin h2 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.info-container-admin {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.super-btn-container-admin {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-container-os-admin {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-right: -15px ;
+    align-items: center;
+}
+
+.os-btn-admin {
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 0;
+    cursor: pointer;
+    background-color: var(--principal-bg-color);
+    color: #ffff;
+}
+
+
+.cyr-input-admin {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 155px 0 0;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.btn-container-os-admin a{
+
+    margin: 0;
+}

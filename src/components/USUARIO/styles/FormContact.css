@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap%27');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.form-contact{
+    background-color: var(--fondo-secundario-bg-color);
+    padding: 30px;
+    margin: auto;
+    width: 70%;
+    margin-top: -20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+.form-contact .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.form-contact .info input{
+    height: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 5px;
+}
+
+.form-contact .info input[type="email"]{
+    width: 98%;
+}
+
+.form-contact .consulta{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-contact .consulta textarea{
+    height: 80px;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 99.2%;
+    border: 0;
+}
+
+.form-contact .consulta textarea::placeholder{
+    color: #000;
+}
+
+.form-contact .consulta button{
+    background-color: var(--principal-bg-color);
+    color: #ffff;
+    width: 100px;
+    height: 40px;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 0;
+}
+
+.form-contact button:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.96;
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    .form-contact .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

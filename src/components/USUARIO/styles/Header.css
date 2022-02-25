@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --principal-bg-color: #054B43 !important;
+    --secundario-bg-color: #00796B !important;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.contenedor-header{
+    z-index: 100;
+    margin-top: -100px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--principal-bg-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-header .header-logo{
+    margin-left: 80px !important;
+    color: var(--letra-links-color);
+    font-size: 35px;
+    margin-top: -2px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.contenedor-header .header-logo img{
+    width: 170px;
+}
+
+
+.contenedor-header .header-links{
+    margin-left: -125px;
+    margin-top: 5px;
+    display: flex;
+    width:360px;
+}
+
+.contenedor-header .header-links a{
+    padding-left: 15px;
+    color: var(--letra-links-color);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contenedor-header .header-links a:hover{
+    font-weight: bold;
+}
+
+.contenedor-header .header-user{
+    width: 80px;
+    background-color: var(--principal-bg-color);
+}
+
+.contenedor-header .header-user img{
+    width: 28px;
+    height: 28px;
+    margin-top: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.menu-bars{
+    color: var(--letra-links-color);
+    display: none;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .contenedor-header{
+        margin-top: 0;
+    } 
+}
+@media (max-width: 500px) {
+    .contenedor-header{
+        margin-top: -30px;
+    } 
+}
+
+@media (min-width: 501px) and (max-width:750px){
+    .contenedor-header{
+        margin-top: -100px;
+    }
+
+    .header-links{
+        display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-links{
+        display: none !important;
+    }
+    .menu-bars{
+        display: block;
+        cursor: pointer;
+    }
+}

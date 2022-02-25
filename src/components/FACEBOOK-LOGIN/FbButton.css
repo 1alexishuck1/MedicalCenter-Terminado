@@ -1,0 +1,16 @@
+.login-btn button{
+    background-color: #3b5998;
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 30px;
+    width:250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.login-btn{
+    width:100%;
+}
+

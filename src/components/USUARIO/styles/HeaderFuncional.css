@@ -1,0 +1,110 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.contenedor-headerFun{
+    z-index: 100;
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #054B43;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-headerFun .headerFun-logo{
+    margin-left: 80px;
+    color: var(--letra-links-color);
+    font-size: 35px;
+    margin-top: -2px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.contenedor-headerFun .headerFun-logo img{
+    width: 170px;
+}
+
+
+.contenedor-headerFun .headerFun-links{
+    margin-left: -130px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.contenedor-headerFun .headerFun-links a{
+    color: var(--letra-links-color);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contenedor-headerFun .headerFun-links a:hover{
+    font-weight: bold;
+}
+
+.contenedor-headerFun .headerFun-user{
+    width: 80px;
+    background-color: var(--principal-bg-color);
+}
+
+.contenedor-headerFun .headerFun-user img{
+    width: 28px;
+    height: 28px;
+    margin-top: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.menu-bars{
+    color: var(--letra-links-color);
+    display: none;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .contenedor-headerFun{
+        margin-top: -4px;
+    } 
+}
+@media (max-width: 500px) {
+    .contenedor-headerFun{
+        margin-top: 0px;
+    } 
+}
+
+@media (min-width: 501px) and (max-width:750px){
+    .contenedor-headerFun{
+        margin-top: 0;
+    }
+
+    .headerFun-links{
+        display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .headerFun-links{
+        display: none !important;
+    }
+    .menu-bars{
+        display: block;
+        cursor: pointer;
+    }
+}

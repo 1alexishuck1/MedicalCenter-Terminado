@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+
+.container-main-selectMT{
+    margin-bottom: 50px !important;
+    margin-top: 80px  !important;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    background-color: var(--principal-bg-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.container-main-selectMT .container-button button{
+    margin-left: 7.7px;
+    background: transparent;
+    margin-top: 5px;
+    color: var(--letra-links-color);
+    border: 0;
+    font-size: 20px;
+    box-shadow: 0 0 0 0;
+    cursor: pointer;
+}

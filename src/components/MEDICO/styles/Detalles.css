@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.detalle-item{
+    align-items: center;
+    width: 88.5%;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--letra-links-color);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: #000;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.detalle-item .container-btn-detalle button{
+    width:100px;
+    height: 25px;
+    margin-top: -.5px;
+    border: 0;
+    padding: 2.5px;
+    background-color: var(--principal-bg-color);
+    border-radius: 5px;
+    color: var(--letra-links-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .detalle-item{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 30px);
+        height: 60px;
+    }
+
+    .detalle-item h4{
+        margin-top: 0px;
+    }
+    .detalle-item .container-btn-detalle button{
+        margin-top: 0px;
+        width: 150px;
+        margin: auto;
+    }
+
+    
+}
+
+
+@media (min-width: 551px) and (max-width: 650px) {
+    .detalle-item{
+        display: grid;
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 30px);
+        height: 60px;
+    }
+
+    .detalle-item h4{
+        margin-top: 0px;
+    }
+    .detalle-item button{
+        margin-top: 0px;
+        width: 250px;
+        margin: auto;
+    }
+}
+
+@media (min-width:651px) and (max-width: 750px) {
+    .detalle-item{
+        display: grid;
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 30px);
+        height: 60px;
+    }
+
+    .detalle-item h4{
+        margin-top: 0px;
+    }
+    .detalle-item button{
+        margin-top: 0px;
+        width: 350px;
+        margin: auto;
+    }
+}

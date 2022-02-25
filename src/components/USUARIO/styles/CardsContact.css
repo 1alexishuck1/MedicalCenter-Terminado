@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap%27');
+
+:root{
+    --principal-bg-color: #00796B;
+    --secundario-bg-color: #a;
+    --fondo-bg-color: #4D4F51;
+    --fondo-secundario-bg-color: rgba(0, 0, 0, 0.566);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container-card{
+    width: 100%;
+    max-width: 1500px;
+    height:250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+
+.container-card .card{
+    width: 290px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background-color: var(--principal-bg-color);
+}
+
+.container-card .card h3{
+    color: #ffff;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.container-card .card p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.container-card .card:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.96;
+}
+
+.container-card .card img{
+    width: 30px;
+    display: block;
+    text-align: left;
+    margin: 5px;
+    color: #0000;
+
+}
+
+.container-card .card .redes img{
+    display: inline-block;
+    width: 40px;
+    margin-top: 6px;
+    cursor: pointer;
+    
+    
+}

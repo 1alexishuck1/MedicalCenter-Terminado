@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.container-calendario{
+    width: 350px;
+    height: 310px;
+    border-radius:5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.react-calendar__navigation{
+    background-color: var(--principal-bg-color);
+    margin-bottom: 0px;
+}
+
+.react-calendar button{
+    color: #000;
+}
+
+
+.react-calendar__navigation button{
+    color: var(--letra-links-color);
+}
+
+.react-calendar__month-view__days button,
+.react-calendar__year-view__months__month button{
+    color: #000;
+}
+
+.react-calendar__month-view__weekdays abbr{
+    color: var(--principal-bg-color);
+}
+
+.react-calendar__month-view__days__day--neighboringMonth abbr{
+    color: #969696;
+}
+
+.react-calendar{
+    border-radius: 5px;
+}
+
+.react-calendar__month-view__weekdays{
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}

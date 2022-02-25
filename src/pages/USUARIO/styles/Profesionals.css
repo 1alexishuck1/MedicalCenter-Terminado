@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap%27');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+body{
+    background-color: var(--fondo-bg-color);
+}
+
+@media (max-width:900px){
+    .container{
+        display: flex;
+        width: 90%;   
+        flex-direction: column;
+    }
+}

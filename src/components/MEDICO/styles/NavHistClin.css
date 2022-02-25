@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.container-nav{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    margin-top:70px;
+    height: 40px;background-color: var(--principal-bg-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 70px auto;
+}
+
+.button-atras{
+    margin-left: 80px;
+}
+
+.button-atras button{
+    background: transparent;
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav-busqueda{
+    width: 298px;
+    margin: 0 auto;
+}
+
+.nav-busqueda input{
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+}
+
+.nav-busqueda button{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+@media (max-width:535px){
+    .nav-busqueda input{
+        width: 150px
+    }
+
+    .nav-busqueda{
+        width: 198px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .button-atras{
+        margin: 0 auto;
+    }
+}

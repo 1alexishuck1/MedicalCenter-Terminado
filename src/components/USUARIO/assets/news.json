@@ -1,0 +1,62 @@
+[
+    {
+        "titulo":"Autotest de Covid: qué opinan los expertos sobre su eficacia",
+        "descripcion":"El organismo autorizó cuatro kits de autoevaluación; los especialistas advierten sobre el riesgo de la interpretación de los resultados negativos",
+        "contenido":"Oncoassist es una aplicación que tiene el objetivo de brindar información precisa a los profesionales de salud especializados en oncología para que puedan tomar decisiones concernientes a los tratamientos de sus pacientes. Con el advenimiento de la secuenciación genómica y la multiplicación de terapias, el proceso de toma de decisiones es cada vez más complejo. Consecuentemente, los profesionales de oncología deben recurrir a múltiples softwares y herramientas para recabar información, que puede no ser segura y validada. Por tal motivo, la app proporciona al especialista una vasta cantidad de información relevante y actualizada, de manera simple y rápida. Presenta una interfaz de usuario intuitiva y cuadros gráficos fáciles de leer que se pueden usar para brindar información a los pacientes sobre por qué es conveniente o no comenzar un proceso de quimioterapia. Se puede descargar a través de Google Play o App Store.",
+        "autor":"Sandra Rodríguez Ramos",
+        "img":"autotest.jpg",
+        "id": 1
+    },
+    {
+        "titulo":"En niños. Cómo la tecnología puede mejorar la experiencia de la vacunación",
+        "descripcion":"Con el fin de contribuir a incrementar las tasas de coberturas de vacunación de los adolescentes, Sanofi Pasteur implementó una iniciativa de realidad virtual para la vacunación contra el meningococo a los 11 años..",
+        "contenido":"Para mejorar la experiencia de la vacunación, Sanofi Pasteur implementó una iniciativa que consiste en la utilización de anteojos de realidad virtual a través de los cuales los niños y niñas pueden seleccionar diferentes videos con distintas historias. Cada historia permite al vacunador o la vacunadora, sincronizar el video con los dos momentos clave de la vacunación: el de la desinfección previa de la piel con alcohol y el de la aplicación de vacuna.",
+        "autor":"Sanofi Pasteur",
+        "img":"vacunacion-niños.jpg",
+        "id": 2
+    },
+    {
+        "titulo":"Cáncer de pulmón: la detección precoz salva vidas",
+        "descripcion":"Un diagnóstico a tiempo es fundamental en el tratamiento de esta enfermedad y la tomografía computada de baja dosis en fumadores de más de 50 años puede significar el primer paso para una mayor supervivencia de los pacientes.",
+        "contenido":"En el Día Mundial de concientización sobre el cáncer de pulmón, resulta importante conocer cuáles son los factores que aumentan el riesgo de desarrollarlo, cómo realizar un diagnóstico a tiempo y de qué manera se identifica a la población de riesgo.El tabaco acompaña la vida de muchas personas y, a lo largo de los años, deja su huella en el cuerpo, una huella que puede ser mortal. El humo del tabaco tiene al menos 70 sustancias químicas que causan cáncer, también conocidas como carcinógenos [1]. Fumar es el factor de riesgo más importante para desarrollar cáncer de pulmón, sin embargo, no todas las personas que fuman padecen de este tipo de cáncer [2]. Los números de la Organización Mundial de la Salud (OMS) señalan al cáncer de pulmón como el segundo tipo de cáncer con más casos a escala global: en 2020, 2,21 millones de personas fueron diagnosticadas con esta afección. En la Argentina, fue el tercero en nuevos casos con un total de 12.110 personas que se enfermaron, según el Observatorio Global del Cáncer, afectando a 7.738 hombres y 4.372 mujeres. Y es el primero en fallecimientos: 10.279 fue el número en 2020, por encima del de mama y el de colon, que son los dos con más cantidad de casos diagnosticados.",
+        "autor":"Content LAB",
+        "img":"cancer-pulmon.jpg",
+        "id": 3
+    },
+    {
+        "titulo":"Se incrementó en los argentinos el riesgo de padecer un trastorno mental",
+        "descripcion":"Así lo reveló un estudio de la Facultad de Psicología de la UBA; las causas y el rol de la pandemia",
+        "contenido":"El riesgo de padecer un trastorno mental en la población argentina se incrementó un 257,4% durante la epidemia por Covid-19, según un estudio realizado por el Observatorio de Psicología Aplicada de la Facultad de Psicología de la Universidad de Buenos Aires. El informe reveló que el 12,51% de la población presentó riesgo de padecer un trastorno mental en este año, frente al 4,86% de marzo de 2020, una semana después de que se decretara el aislamiento social preventivo y obligatorio en la Argentina.'Son cifras muy preocupantes', afirmó el secretario de investigación y coordinador del estudio Martín Etchevers. 'La población se enfrentó a un desafío multidimensional: económico, laboral y social. Un cambio drástico en el estilo de vida. Este panorama se incrementa en las poblaciones más vulnerables, donde se observa un mayor deterioro en múltiples aspectos de la vida de las personas'. Asimismo, los niveles de sintomatología ansiosa depresiva y el riesgo suicida también aumentaron a nivel nacional de la mano del malestar psicológico. Y estos síntomas se manifestaron en mayor medida en aquellas personas que presentaron adicción al tabaco, al alcohol o a sustancias ilegales. Sin embargo, en aquellas personas que se refugiaron en el ejercicio físico el impacto fue menor.",
+        "autor":"Sandra Rodríguez Ramos",
+        "img":"depresion.jpg",
+        "id": 4
+    },
+
+    {
+        "titulo":"Ley de Etiquetado Frontal: guía para saber cómo leer los alimentos y entender qué es cada cosa",
+        "descripcion":"Te dejamos una guía para entender cuáles son los principales ingredientes de los alimentos procesados, y cuáles deberías evitar",
+        "contenido":"De un tiempo a esta parte, como resultado de la explosión de ultraprocesados, la consciencia sobre la composición de los alimentos y sus efectos en nuestra salud es cada vez mayor. Como siempre, los cambios de paradigma tienen sus detractores, y el camino parece avanzar, primero, por un registro a nivel social y luego por un lento cambio de hábitos de las masas. No solamente hay cada vez más comunicadores, nutricionistas, cocineros e influencers que nos abren los ojos sobre la calidad de lo que comemos, sino que ese reclamo avanzó, aunque lentamente, y ayer por la noche se anunció la aprobación de la Ley de Etiquetado. Para que entiendas en el marco de qué se trató, tenés que tener en cuenta que una de las principales causas por las que enfermamos y morimos los argentinos, son las enfermedades crónicas no transmisibles, como el cáncer y la diabetes, y las enfermedades crónicas respiratorias y cardiovasculares. Existen factores de riesgo que hacen que esas enfermedades empeoren y se desarrollen de una manera más pronunciada, entre los cuales se encuentra la alimentación, que está muy ligada al comportamiento y que por ende es posible de mejorar.",
+        "autor":"Ernesto Ramirez",
+        "img":"ley.jpg",
+        "id": 5
+    },
+
+    {
+        "titulo":"Deficiencia de hierro: cómo cambiar los alimentos que consumís te puede ayudar a sentirte menos cansado",
+        "descripcion":"El cansancio y la fatiga afecta a gran parte de la población y a veces no hay un motivo obvio por el que nos sintamos con la energía tan baja. ¿Consumir hierro podría ayudar?",
+        "contenido":"Una de cada cinco personas se siente inusualmente cansada de forma habitual y una de cada diez sufre fatiga prolongada, según el Real Colegio de Psiquiatras de Reino Unido. A veces, puede no haber una razón obvia. Sorprende, entonces, que apenas estemos comenzando a comprender algunas de las causas del cansancio y la fatiga. Lo que es más, una nueva investigación está arrojando algunos datos sorprendentes sobre el papel que juega nuestra dieta. La deficiencia de hierro es la deficiencia nutricional más común en todo el mundo. Más del 30% de la población mundial está anémica, según la Organización Mundial de la Salud (OMS). La Encuesta Nacional de Dieta y Nutrición de Reino Unido revela que el 48% de las niñas de entre 11 y 18 años, el 27% de las mujeres de entre 19 y 64 años y casi uno de cada 10 niños de entre 11 y 18 años registran una ingesta de hierro baja. ¿Cómo afecta esto a los niveles de energía?",
+        "autor":"Esther Martinez",
+        "img":"hierro.jpg",
+        "id": 6
+    },
+
+    {
+        "titulo":"Coronavirus: cuánto tarda el resultado de un hisopado",
+        "descripcion":"El testeo se realiza en centros de salud públicos y privados y también de manera particular; se recomienda hacerlo en los cuatro días siguientes a la aparición de los síntomas",
+        "contenido":"La suba de contagios de coronavirus enciende las alarmas de las autoridades sanitarias de todas las jurisdicciones del país y de los ciudadanos que, en caso de notar algún síntoma coincidente con la enfermedad, deberán acudir a un centro de testeo para realizarse el hisopado. Si una persona presenta uno o más de los siguientes síntomas es conveniente que realice una consulta médica y, de ser necesario, se acerque a un centro de salud para someterse al hisopado de coronavirus. El llamado hisopado nasofaríngeo (RT-PCR) es el método por excelencia para detectar la enfermedad y se usa a nivel mundial, tiene una efectividad del 99% y consta de la introducción de un hisopo en las fosas nasales y la garganta. El hisopado está indicado en las personas que tienen síntomas compatibles con el coronavirus y es recomendable realizarlo en los cuatros días siguientes a la aparición o al contacto con un caso positivo, para evitar un falso negativo. El análisis de laboratorio sobre una muestra de hisopado normalmente demora 24 horas, dependiendo, en algunas ocasiones, del volumen de testeos diarios. Esta demora suele ser la misma en los centros de salud públicos y privados o los que se realizan de manera particular, donde es el paciente quien abona el hisopado.",
+        "autor":"Ricardo Pristupluk",
+        "img":"hisopado.jpg",
+        "id": 7
+    }
+
+]

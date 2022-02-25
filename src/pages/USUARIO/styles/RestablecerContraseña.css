@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+
+.container-restablecer{
+    margin-top: 20px !important;
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.566);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-restablecer .item-texto h2{
+    text-align: center;
+    margin-top:10px;
+    z-index: 99;
+    margin-bottom:17.5px;
+    color: var(--letra-links-color);
+}
+
+.container-restablecer .item-restablecer input{
+    margin-left: 25px;
+    width: 85%;
+    height: 30px;
+}
+
+.container-restablecer .item-btn button{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: var(--principal-bg-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--letra-links-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

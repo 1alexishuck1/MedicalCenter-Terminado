@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+
+.contenedor-cards{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    margin-top: -40px;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-cards .cards{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    margin-top: 60px;
+    height:150px;
+    text-align: center;
+    background-size: 100% 100%;
+    border-radius: 2.5px;
+}
+
+.contenedor-cards .cards a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor-cards .cards:hover{
+    opacity: 0.9;
+}
+
+.contenedor-cards .cards a h3{
+    margin-top: 50px;
+}
+
+.cards:first-child{
+    background-image: url('../assets/profesionales.png');
+}
+
+.cards:nth-child(2){
+    background-image: url('../assets/noticias.png');
+}
+
+.cards:nth-child(3){
+    background-image: url('../assets/contacto.png');
+}
+
+.cards:nth-child(4){
+    background-image: url('../assets/historiaclinica.png');
+}
+
+
+@media (min-width: 400px) and (max-width: 499px) {
+    .contenedor-cards{
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-cards .cards{
+        width: 80%;
+        margin: 80px auto;
+        margin-bottom: -30px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 750px){
+    .contenedor-cards{
+        margin-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

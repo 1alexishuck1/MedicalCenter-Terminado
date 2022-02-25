@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --principal-bg-color: #054B43;
+    --secundario-bg-color: #00796B;
+    --fondo-bg-color: #4D4F51;
+    --letra-links-color: #fff;
+}
+
+.container-main{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top:40px;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
