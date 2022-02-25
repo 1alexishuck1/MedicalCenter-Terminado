@@ -32,7 +32,7 @@ export default function FormContact() {
         <div className="form-contact">
             <form ref={form} onSubmit={enviarMensaje}>
                 <div className='info'>
-                    <input type="text" name="name" placeholder='Nombre y apellido' onChange={handleChange}/>
+                    <input type="text" name="name1" placeholder='Nombre y apellido' onChange={handleChange}/>
                     <input type="email"name="email"  placeholder='E-Mail' onChange={handleChange}/>
                     <input type="text" name="celular" placeholder='Celular' onChange={handleChange}/>
                     <input type="text" name="motivo" placeholder='Motivo' onChange={handleChange}/>
@@ -45,7 +45,7 @@ export default function FormContact() {
                 {mensaje && <div>
                     <input type="hidden" name="subject" value={`Ha recibido una consulta: ${mensaje.motivo}`}/>
                     <input type="hidden" name="textoIgnorar" value={mensaje.consulta}/>
-                    <input type="hidden" name="texto" value={ `Mi nombre es ${mensaje.name}`}/>
+                    <input type="hidden" name="texto" value={ `Mi nombre es ${mensaje.name1}`}/>
                     <input type="hidden" name="name" value="Administrador"/>
                     <input type="hidden" name="codigo" value=""/>
                     <input type="hidden" name="destino" value="medicalcenterfhlp@gmail.com"/>
