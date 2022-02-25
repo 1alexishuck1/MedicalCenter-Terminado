@@ -12,6 +12,7 @@ const AprobadoMP = () => {
 
     const location = useLocation();
     let id_transaccion = location.search.split('&')[7].split('=')[1];
+    console.log(id_transaccion);
 
     const [turnoDatos, setTurnoDatos] = useState({
         fecha: '',
@@ -34,6 +35,7 @@ const AprobadoMP = () => {
             correo: data.correoelectronico,
             id_paciente: data.dni
         });
+        console.log(data)
     }
 
     const peticionUpTurnoTransaccion = async() =>{
@@ -42,6 +44,7 @@ const AprobadoMP = () => {
             headers: {"Content-Type": "application/json"}
         });
         const data = await resultado.json();
+        console.log(data);
     }
 
     useEffect(() => {
@@ -77,7 +80,7 @@ const AprobadoMP = () => {
                         <input type="hidden" name="fecha" value={turnoDatos.fecha}/>
                         <input type="hidden" name="hora" value={turnoDatos.hora}/>
                         <input type="hidden" name="monto" value={turnoDatos.costo}/>
-                        <input type="hidden" name="destino" value={turnoDatos.email}/> 
+                        <input type="hidden" name="destino" value={turnoDatos.correo}/> 
                         <button type="submit">Volver al inicio</button>
                     </form>
                 </div>
